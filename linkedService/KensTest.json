@@ -1,0 +1,12 @@
+{
+	"name": "KensTest",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlMI",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=adftestdatabase.public.c62f18c845be.database.windows.net,3342;initial catalog=AdfTest;user id=kencol",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIktFTlNURVNUREFUQUZBQ1RPUllfZjM3Nzk3OGMtMjQ4Zi00MDhlLTk0OWEtNzk3Mjc3M2E5YzgzIg0KfQ=="
+		}
+	}
+}
